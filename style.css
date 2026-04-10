@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar */
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero span {
+    color: yellow;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background: white;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.projects {
+    background: #f4f4f4;
+}
+
+.project-card {
+    background: white;
+    margin: 15px auto;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact input, .contact textarea {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
